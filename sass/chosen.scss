@@ -123,7 +123,6 @@ $chosen-sprite-retina: url('chosen-sprite@2x.png') !default;
       outline: 0;
       border: 1px solid #aaa;
       background: #fff $chosen-sprite no-repeat 100% -20px;
-      background: $chosen-sprite no-repeat 100% -20px;
       font-size: 1em;
       font-family: sans-serif;
       line-height: normal;
@@ -392,7 +391,6 @@ $chosen-sprite-retina: url('chosen-sprite@2x.png') !default;
   .chosen-search input[type="text"] {
     padding: 4px 5px 4px 20px;
     background: #fff $chosen-sprite no-repeat -30px -20px;
-    background: $chosen-sprite no-repeat -30px -20px;
     direction: rtl;
   }
   &.chosen-container-single{
