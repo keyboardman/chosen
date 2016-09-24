@@ -249,6 +249,7 @@ class AbstractChosen
 
     searchText = this.get_search_text()
     escapedSearchText = this.removeDiacritics(searchText.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"))
+    zregex = new RegExp(escapedSearchText, 'i')
     regex = this.get_search_regex(escapedSearchText)
     highlightRegex = this.get_highlight_regex(escapedSearchText)
 
