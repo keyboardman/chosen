@@ -2,7 +2,6 @@
 node_modules
 .project
 chosen*.zip
-public/*.json
 .sass-cache
 .ruby-version
 .rbenv-gemsets
